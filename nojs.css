@@ -1,0 +1,20 @@
+#nojs-input {
+	display: none;
+}
+
+[for="nojs-input"] {
+	display: block;
+	height: 100%;
+	width: 100%;
+	background-color: khaki;
+	-webkit-filter: opacity(1);
+	filter: opacity(1);
+}
+
+input[type="checkbox"]:checked ~ [for="nojs-input"] {
+	display: none;
+}
+
+input[type="checkbox"]:checked {
+	display: none;
+}

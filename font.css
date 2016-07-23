@@ -1,0 +1,16 @@
+body {
+	font-size: small;
+	font-family: 'Liberation Sans', sans-serif;
+}
+
+.hgroup > :not(:first-child) {
+	font-style: italic;
+}
+
+h1 {
+	font-size: 0.9rem;
+}
+
+h2, h3, h4, h5, h6 {
+	font-size: 0.8rem;
+}
